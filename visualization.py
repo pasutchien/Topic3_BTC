@@ -7,7 +7,7 @@ def plot_price_with_news(price_df: pd.DataFrame, news_headlines_df: pd.DataFrame
     fig = px.line(
         price_df,
         x='Date',
-        y='TRDPRC_1',
+        y='Close',
         width=1200,
         title=title
     )
